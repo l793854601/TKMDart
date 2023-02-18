@@ -47,7 +47,7 @@ void main(List<String> args) {
   //  折叠
   //  fold/reduce
   //  fold：可以指定初始值
-  //  recude：初始值默认为集合的首个元素
+  //  reduce：初始值默认为集合的首个元素
   int result =
       nums.fold(0, (previousValue, element) => previousValue + element);
   print(result);
