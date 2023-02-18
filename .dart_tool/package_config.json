@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "TKMDart",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    }
+  ],
+  "generated": "2023-02-18T11:02:20.836031Z",
+  "generator": "pub",
+  "generatorVersion": "2.19.2"
+}
