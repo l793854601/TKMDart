@@ -1,9 +1,12 @@
+#yaml文件中，使用#注释
 name: TKMDart
 
 description: Dart demos
 
+# Dart版本
 environment:
   sdk: ">=2.17.0 <3.0.0"
 
+# 依赖
 dependencies:
   http: ^0.13.5
