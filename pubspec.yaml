@@ -4,3 +4,6 @@ description: Dart demos
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.5
