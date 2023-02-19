@@ -1,6 +1,7 @@
 void main(List<String> args) {
   print(min<String>('a', 'b'));
   print(min<int>(1, 2));
+  // print(min<String>('1', 123));
 }
 
 //  泛型方法
