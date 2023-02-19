@@ -10,6 +10,7 @@ void main(List<String> args) {
   print(price);
 
   //  声明数值类型
+  //  num为抽象类
   num n1 = 3;
   print(n1);
   print(n1.runtimeType); //  int
