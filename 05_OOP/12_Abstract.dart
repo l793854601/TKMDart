@@ -16,7 +16,7 @@ abstract class Phone {
 
   void call();
 
-  //  抽象类中可以有非抽象方法（新版Dart中，实现类必须重写非抽象方法）
+  //  抽象类中可以有非抽象方法（新版Dart中，实现类必须实现非抽象方法）
   //  一般抽象类用于接口的定义
   // String description() {
   //   return '处理器：$processor, 摄像头：$camera';
