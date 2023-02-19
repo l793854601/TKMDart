@@ -17,31 +17,6 @@ void main(List<String> args) {
   // box.put('1');
 }
 
-abstract class Cache<T> {
-  T? getByKey(String key);
-  void setByKey(String key, T value);
-}
-
-class Person {
-  String name;
-
-  Person(this.name);
-}
-
-class PersonCache extends Cache<Person> {
-  static final _cache = Map<String, Person>();
-
-  @override
-  Person? getByKey(String key) {
-    return _cache[key];
-  }
-
-  @override
-  void setByKey(String key, Person value) {
-    _cache[key] = value;
-  }
-}
-
 class Box<T> {
   T a;
 
